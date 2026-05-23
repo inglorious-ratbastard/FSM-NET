@@ -1,0 +1,246 @@
+@model myapp.Pages.DestinationModel
+
+<style> 
+#destination { 
+    font-family: "EB Garamond", serif;
+} 
+.page-subtitle-wrapper {
+    width: 100%;
+    left: 0;
+    margin-top: 10px; 
+    pointer-events: none;
+} 
+.page-subtitle {
+    font-family: "Courgette", cursive;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.85;
+    margin: 0;  
+}
+.pushed-grid {
+    transform: translateY(50px);
+} 
+#destination ul li  a { 
+    font-size: 15px !important;
+}
+.destination-heading {
+    font-weight: 500;
+    font-family: "Courgette", cursive;
+    margin-bottom: 8px;
+} 
+.destination-text { 
+    margin-top: 20px;
+    font-size: 14px; 
+}
+.uk-grid-item-match {
+    align-self: flex-start;
+}
+
+@@media (max-width: 640px) {
+    .page-subtitle { 
+        font-size: 12px;
+        width: 75%;
+        line-height: 1.5;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 20px;
+    }
+    .uk-grid-item-match {
+        width: 80vw !important;    
+        margin-left: 20px !important;
+    } 
+    #destination .uk-child-width-expand\@@s > div:last-child {
+        display: flex;
+        justify-content: center; 
+        width: 80vw;
+    }
+    #destination .uk-accordion-default {
+        width: 100%;
+        max-width: 320px;
+        margin-left: -30px !important;
+    }
+    #destination .uk-accordion-title {
+        text-align: center;
+        display: block;
+    }
+    #destination .uk-accordion-content {
+        text-align: center;
+    }
+    #destination .destination-text,
+    #destination .destination-heading {
+        text-align: center;
+    }
+    #destination .uk-accordion-content p {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+.accordion-icon {
+    margin-right: 10px;
+    font-size: 13px;
+    vertical-align: middle;
+    color: #ff8a65;
+} 
+
+@@media (max-width: 960px) { 
+    .page-subtitle { 
+        font-size: 12px;
+        width: 75%;
+        line-height: 1.5;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 40px;
+    }
+    #destination .closer-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #destination .uk-accordion-title {
+        text-align: center;
+        display: block;
+    } 
+    #destination .uk-accordion-title {
+    display: flex;
+    align-items: center;
+    } 
+    #destination .accordion-icon {
+        width: 18px;
+        min-width: 18px;
+        margin-right: 10px;
+        text-align: center;
+        flex-shrink: 0;
+    }
+    #destination .uk-child-width-expand\@@s > div {
+        width: 60vw;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #destination .uk-grid-item-match {
+        align-self: center;
+        margin-bottom: 30px;
+    } 
+    #destination .destination-heading,
+    #destination .destination-text,
+    #destination .uk-accordion-title,
+    #destination .uk-accordion-content {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #destination .uk-accordion-default,
+    #destination .fixed-accordion {
+        width: 100%;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    #destination .uk-accordion-content p {
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    #destination .pushed-grid {
+        transform: none;
+    }
+}
+</style>
+
+<div id="destination" class="page-main uk-section uk-flex uk-flex-center">
+  <div class="uk-width-1-1 uk-width-3-4@m uk-text-center">
+
+    <h6 class="page-title uk-text-bold uk-text-center">
+      Make Your Next Destination Micronesia
+    </h6> 
+
+    <div class="page-subtitle-wrapper">
+        <h6 class="page-subtitle uk-text-center">
+            Discover hidden islands, unforgettable adventures, and authentic Pacific culture.
+        </h6>
+    </div>
+
+    <div class="uk-child-width-expand@s uk-grid-large uk-margin-xsmall-top closer-grid pushed-grid" uk-grid>
+    <div class="uk-grid-item-match">
+        <h5 class="destination-heading uk-text-bold">Begin Your Pacific Island Escape</h5> 
+        <p class="destination-text uk-margin-remove-bottom">
+          From crystal-clear lagoons and vibrant coral reefs to rich island culture and unforgettable adventures, Micronesia offers a tropical escape unlike anywhere else. Explore travel guides, local attractions, transportation tips, and everything you need to plan your next island journey.</p>
+        <p class="destination-text">
+          Whether you're diving with manta rays, exploring ancient ruins, or relaxing on secluded beaches, every island offers something unique to discover. Start planning early to make the most of inter-island travel, seasonal weather, and local experiences that can’t be found anywhere else.
+        </p>
+     </div>
+    <div>
+        <ul class="uk-accordion-default fixed-accordion" uk-accordion>
+            <li>
+                <a class="uk-accordion-title" href>
+                <i class="fa-solid fa-fan accordion-icon"></i>
+                Plan Your Micronesia Adventure</a>
+                <div class="uk-accordion-content">
+                    <p>
+                        Planning a trip to Micronesia begins with choosing which islands best match your travel style and interests. From world-class diving destinations to quiet tropical villages, every island offers its own unique experience. Researching transportation, lodging, and seasonal weather ahead of time can help you create a smoother and more enjoyable journey.
+                    </p>
+            </div>
+        </li>
+
+        <li>
+            <a class="uk-accordion-title" href>
+             <i class="fa-solid fa-fan accordion-icon"></i>
+            Essential Travel Resources</a>
+            <div class="uk-accordion-content">
+                <p>
+                    Before traveling, it’s important to review passport requirements, local currency information, and airline routes between islands. Travelers should also prepare for limited internet access and varying transportation schedules depending on the region. Packing light clothing, reef-safe sunscreen, and travel essentials will help you stay comfortable throughout your adventure.
+                </p>
+            </div>
+        </li>
+
+        <li>
+            <a class="uk-accordion-title" href>
+             <i class="fa-solid fa-fan accordion-icon"></i>
+            Island Guides & Local Tips</a>
+            <div class="uk-accordion-content">
+                <p>
+                    Each island in Micronesia has its own traditions, landmarks, and hidden gems waiting to be explored. Local guides can help visitors experience authentic cultural activities, traditional foods, and lesser-known natural attractions. Respecting local customs and communities helps create a more meaningful and memorable travel experience.
+                </p>
+            </div>
+        </li>
+
+        <li>
+            <a class="uk-accordion-title" href>
+            <i class="fa-solid fa-fan accordion-icon"></i>
+            Explore Micronesia Before You Go</a>
+            <div class="uk-accordion-content">
+                <p>
+                    Learning about Micronesia before your trip can help you better appreciate the islands and their history. Watching travel videos, exploring maps, and reading visitor experiences can provide valuable insight into what to expect. Familiarizing yourself with island geography and transportation can also make travel between destinations much easier.
+                </p>
+            </div>
+        </li>
+
+        <li>
+            <a class="uk-accordion-title" href>
+            <i class="fa-solid fa-fan accordion-icon"></i>
+            Travel Information & Helpful Links</a>
+            <div class="uk-accordion-content">
+                <p>
+                    Reliable travel information can make planning your Micronesian getaway far less stressful. Official tourism sites, airline schedules, and local transportation resources are useful tools when organizing your itinerary. Keeping emergency contacts, accommodation details, and travel confirmations accessible can also help ensure a safer and more relaxed experience.
+                </p>
+            </div>
+        </li>
+        </ul>
+    </div>
+</div> 
+
+  </div>
+</div>

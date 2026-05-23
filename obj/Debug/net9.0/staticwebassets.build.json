@@ -1,0 +1,3586 @@
+{
+  "Version": 1,
+  "Hash": "c7wPrwMdtBqxmJKnqFJS+D4wRHCmzUXRjvajcnrPwuE=",
+  "Source": "myapp",
+  "BasePath": "_content/myapp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "myapp/wwwroot",
+      "Source": "myapp",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/user/first-net/obj/Debug/net9.0/compressed/3lcv7c3j9k-4a6zaidqf3.gz",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "js/app#[.{fingerprint=4a6zaidqf3}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/user/first-net/wwwroot/js/app.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "axiw39381o",
+      "Integrity": "zv5j+uReP6YDmZOg2EyK/RBzWN5U3WnKSfGSYiD9jOk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/user/first-net/wwwroot/js/app.js"
+    },
+    {
+      "Identity": "/home/user/first-net/obj/Debug/net9.0/compressed/g2b12m41m9-xzdzr2rdv2.gz",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "css/app#[.{fingerprint=xzdzr2rdv2}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/user/first-net/wwwroot/css/app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "4brd9qeaii",
+      "Integrity": "gHzQaubTBxknyr5qKyYRho8Zah8sfX/Ga/hjrHTPTjw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/user/first-net/wwwroot/css/app.css"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/css/app.css",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "css/app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xzdzr2rdv2",
+      "Integrity": "nWSZ0nZpMnwGNt6ab5BAMhthHQBxZl9aJ6L/F5HlwLY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/app.css"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/flag-button-round-250.png",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/flag-button-round-250#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xxab2glfk9",
+      "Integrity": "22GgPpbuyGvBA0j8QEk4479V703qcTQuKLlWfVZ/RMA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/flag-button-round-250.png"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/0eeee50b_y.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/0eeee50b_y#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ty8cy0o0xx",
+      "Integrity": "ZZpuG4OamIswBvEZepQ/kojwE+VdYSJPKEtsgN+sve0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/0eeee50b_y.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/Kosrae.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/Kosrae#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5xp5rn0qx7",
+      "Integrity": "eUlcEKZtn1IPgfYbwJwBo+Vg4Y5qimqovFb3yJdKAvg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/Kosrae.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/large.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/large#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ob8jsq3u0m",
+      "Integrity": "5KSAeAi4r+xuj9HDguy1uRYMLs7z7r/wQqHiTEnPAVs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/large.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/map-Federated-States-of-Micronesia.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/map-Federated-States-of-Micronesia#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zs6km2p5rn",
+      "Integrity": "c03emt0lf3tCHQP6+OoMRxfC6q/HwdXIYamVRxMt/mk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/map-Federated-States-of-Micronesia.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/Micronesia_653px.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/Micronesia_653px#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3m9z9fz1f0",
+      "Integrity": "lS8UcNlHetTdh9jxNvSTqvLgAVVFukR2Nf+QHhrLVf0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/Micronesia_653px.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/micronesia-70-palau-islands.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/micronesia-70-palau-islands#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7v9aol3ql0",
+      "Integrity": "c4zC3nFKjWFgMGvc24Ani3zyhfTj7pa/FNc4zvoJB6U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/micronesia-70-palau-islands.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/Outrigger-Micronesia-Jonathan-Rossouw.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/Outrigger-Micronesia-Jonathan-Rossouw#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q734fhjxwp",
+      "Integrity": "Rqzg1qRu7QMvH6m3D9odjkEEkPGabPg2YHXZ6ZkYUFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/Outrigger-Micronesia-Jonathan-Rossouw.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/photo-1493558103817-58b2924bce98.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/photo-1493558103817-58b2924bce98#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1w85vncaxf",
+      "Integrity": "QTeDrfd7NVk0KtK0PC1GnCoaL/1xhS2nizUxEIpkbTU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/photo-1493558103817-58b2924bce98.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/photo-1500375592092-40eb2168fd21.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/photo-1500375592092-40eb2168fd21#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xehzv798iv",
+      "Integrity": "6c2lrNvlJIkXYk1AlRTCygzrECwf46knMGo4+yv5Twk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/photo-1500375592092-40eb2168fd21.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/photo-1501785888041-af3ef285b470.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/photo-1501785888041-af3ef285b470#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9cxovp4gbx",
+      "Integrity": "N36aMJHLq/byqoUafTIi9GDJwS49QgbpMp+UtlJQdCE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/photo-1501785888041-af3ef285b470.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/photo-1507525428034-b723cf961d3e.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/photo-1507525428034-b723cf961d3e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "679l3kmp3b",
+      "Integrity": "LovA8Uy2AKm9P2gS2F+4f+U4sqOgjadC8yoWtO50Hvs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/photo-1507525428034-b723cf961d3e.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/photo-1519046904884-53103b34b206.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/photo-1519046904884-53103b34b206#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2mp5i7c825",
+      "Integrity": "6p542/tyHONDNSwtqiU2Cud8nvNMVIAyUntuDmSxvJM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/photo-1519046904884-53103b34b206.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/subpages/5bfe12470a26ac443792d007_Chuuk-01.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/subpages/5bfe12470a26ac443792d007_Chuuk-01#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "chyj93bsmo",
+      "Integrity": "UHqvSSR2qOZmaa6w2fHMUYuXMNWZED+/SzV4X1erNJM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/subpages/5bfe12470a26ac443792d007_Chuuk-01.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/subpages/about.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/subpages/about#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zv1qtxhe94",
+      "Integrity": "8YIGtAr7WguXy6+I/lJySnpfWL3NEicRu4d53xPvGEc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/subpages/about.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/subpages/caption.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/subpages/caption#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6mxo0hwpuj",
+      "Integrity": "0hvZbm3p017gAV2suq15+agrATqQPICXy4zCWe6wgus=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/subpages/caption.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/subpages/Hiking-&-Walking_3.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/subpages/Hiking-&-Walking_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lqjpb8syqg",
+      "Integrity": "LXvVMGIuQ3w3unDP+PfyQ71SGfTuX+8Xqg51JkI1g4I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/subpages/Hiking-&-Walking_3.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pages/Truk-Lagoon-Master-Liveaboards.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pages/Truk-Lagoon-Master-Liveaboards#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5dgbga37h8",
+      "Integrity": "Z3ABls5qWd7b0iRaYSX3ubE4f/3OkcYpbLUxhNANcwU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pages/Truk-Lagoon-Master-Liveaboards.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yhyi686g0l",
+      "Integrity": "2jrxSV7OS9uLGYFwId4dKQc9UGL8t1u5cB13GwEEFkA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/slides/_DSC5244.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/slides/_DSC5244#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "egbvs0ao5y",
+      "Integrity": "Qnhy+qgRk+yBnYG8WSXF71oxQoiU8iG1ckeuqoaFOZo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/slides/_DSC5244.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/slides/do_yap_communityhouse.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/slides/do_yap_communityhouse#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v1h9f9pnb2",
+      "Integrity": "bb7Fco0MIIPo9RphXuxLs4yUZfigi74B83tN0wvFimY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/slides/do_yap_communityhouse.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/slides/Header-Micronesia-Fefan-Aerial.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/slides/Header-Micronesia-Fefan-Aerial#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zirca1gvrc",
+      "Integrity": "W8S5i0Hm4Wd2jIZ6umm+65Bdd71YOKeHCetoFKbx1lk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/slides/Header-Micronesia-Fefan-Aerial.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/slides/lrm_export_20180529_125706.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/slides/lrm_export_20180529_125706#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t6sr2xv9wh",
+      "Integrity": "i6JyDSAcJoeU6nvpZHI+PW2Qpa5jGV7Q94E8IeSqZrQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/slides/lrm_export_20180529_125706.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/slides/micronesia-man-at-sea-23bga5envi661uy5.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/slides/micronesia-man-at-sea-23bga5envi661uy5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u9y642wti8",
+      "Integrity": "/gCuXwzbjcSPsDOfs6sQLG99W3dYIYRgD6Nl5uSj3u4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/slides/micronesia-man-at-sea-23bga5envi661uy5.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/slides/photo-1553602889-f85ab725f992.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/slides/photo-1553602889-f85ab725f992#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ypbawks102",
+      "Integrity": "1knMnAyax7gvfZipJ8tUUxstYzLRAmzSI13n1Rajzdo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/slides/photo-1553602889-f85ab725f992.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/slides/photo-1553602932-f93f674a9aaa.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/slides/photo-1553602932-f93f674a9aaa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fdv9fc7spl",
+      "Integrity": "E5aMakSdA/4YW+WAmrQ3+e1c5Qk8kCN77f2F3omvwhU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/slides/photo-1553602932-f93f674a9aaa.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/slides/wp2218416.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/slides/wp2218416#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "al5tyvjf6h",
+      "Integrity": "ju8j9RWuWQAWOPvNy6j4cRrD2mdmFNggPaQji0S8E4s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/slides/wp2218416.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/images/slides/YAP_Cover-Shot-Option-1.jpg",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "images/slides/YAP_Cover-Shot-Option-1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c5ploql4wg",
+      "Integrity": "kIKQvVzhye0AVOjcRfNyQK04snU6612mub2AXW7hvrA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/slides/YAP_Cover-Shot-Option-1.jpg"
+    },
+    {
+      "Identity": "/home/user/first-net/wwwroot/js/app.js",
+      "SourceId": "myapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/user/first-net/wwwroot/",
+      "BasePath": "_content/myapp",
+      "RelativePath": "js/app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4a6zaidqf3",
+      "Integrity": "dNMlVwPyqsOOn8CAJAudisD0xdBz+jikRuifdV7B/K4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/app.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/app.css",
+      "AssetFile": "/home/user/first-net/obj/Debug/net9.0/compressed/g2b12m41m9-xzdzr2rdv2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000801282051"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1247"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gHzQaubTBxknyr5qKyYRho8Zah8sfX/Ga/hjrHTPTjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 May 2026 17:27:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nWSZ0nZpMnwGNt6ab5BAMhthHQBxZl9aJ6L/F5HlwLY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nWSZ0nZpMnwGNt6ab5BAMhthHQBxZl9aJ6L/F5HlwLY="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "/home/user/first-net/wwwroot/css/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nWSZ0nZpMnwGNt6ab5BAMhthHQBxZl9aJ6L/F5HlwLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 May 2026 17:27:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nWSZ0nZpMnwGNt6ab5BAMhthHQBxZl9aJ6L/F5HlwLY="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css.gz",
+      "AssetFile": "/home/user/first-net/obj/Debug/net9.0/compressed/g2b12m41m9-xzdzr2rdv2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gHzQaubTBxknyr5qKyYRho8Zah8sfX/Ga/hjrHTPTjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 May 2026 17:27:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gHzQaubTBxknyr5qKyYRho8Zah8sfX/Ga/hjrHTPTjw="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.xzdzr2rdv2.css",
+      "AssetFile": "/home/user/first-net/obj/Debug/net9.0/compressed/g2b12m41m9-xzdzr2rdv2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000801282051"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1247"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gHzQaubTBxknyr5qKyYRho8Zah8sfX/Ga/hjrHTPTjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 May 2026 17:27:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nWSZ0nZpMnwGNt6ab5BAMhthHQBxZl9aJ6L/F5HlwLY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xzdzr2rdv2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nWSZ0nZpMnwGNt6ab5BAMhthHQBxZl9aJ6L/F5HlwLY="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.xzdzr2rdv2.css",
+      "AssetFile": "/home/user/first-net/wwwroot/css/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nWSZ0nZpMnwGNt6ab5BAMhthHQBxZl9aJ6L/F5HlwLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 May 2026 17:27:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xzdzr2rdv2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nWSZ0nZpMnwGNt6ab5BAMhthHQBxZl9aJ6L/F5HlwLY="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.xzdzr2rdv2.css.gz",
+      "AssetFile": "/home/user/first-net/obj/Debug/net9.0/compressed/g2b12m41m9-xzdzr2rdv2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gHzQaubTBxknyr5qKyYRho8Zah8sfX/Ga/hjrHTPTjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 May 2026 17:27:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xzdzr2rdv2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gHzQaubTBxknyr5qKyYRho8Zah8sfX/Ga/hjrHTPTjw="
+        }
+      ]
+    },
+    {
+      "Route": "images/flag-button-round-250.png",
+      "AssetFile": "/home/user/first-net/wwwroot/images/flag-button-round-250.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"22GgPpbuyGvBA0j8QEk4479V703qcTQuKLlWfVZ/RMA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 May 2026 23:50:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-22GgPpbuyGvBA0j8QEk4479V703qcTQuKLlWfVZ/RMA="
+        }
+      ]
+    },
+    {
+      "Route": "images/flag-button-round-250.xxab2glfk9.png",
+      "AssetFile": "/home/user/first-net/wwwroot/images/flag-button-round-250.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"22GgPpbuyGvBA0j8QEk4479V703qcTQuKLlWfVZ/RMA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 May 2026 23:50:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xxab2glfk9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/flag-button-round-250.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-22GgPpbuyGvBA0j8QEk4479V703qcTQuKLlWfVZ/RMA="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/0eeee50b_y.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/0eeee50b_y.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58256"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZZpuG4OamIswBvEZepQ/kojwE+VdYSJPKEtsgN+sve0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:35:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZZpuG4OamIswBvEZepQ/kojwE+VdYSJPKEtsgN+sve0="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/0eeee50b_y.ty8cy0o0xx.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/0eeee50b_y.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58256"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZZpuG4OamIswBvEZepQ/kojwE+VdYSJPKEtsgN+sve0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:35:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ty8cy0o0xx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/0eeee50b_y.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZZpuG4OamIswBvEZepQ/kojwE+VdYSJPKEtsgN+sve0="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/Kosrae.5xp5rn0qx7.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/Kosrae.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eUlcEKZtn1IPgfYbwJwBo+Vg4Y5qimqovFb3yJdKAvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5xp5rn0qx7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/Kosrae.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eUlcEKZtn1IPgfYbwJwBo+Vg4Y5qimqovFb3yJdKAvg="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/Kosrae.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/Kosrae.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eUlcEKZtn1IPgfYbwJwBo+Vg4Y5qimqovFb3yJdKAvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eUlcEKZtn1IPgfYbwJwBo+Vg4Y5qimqovFb3yJdKAvg="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/large.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5KSAeAi4r+xuj9HDguy1uRYMLs7z7r/wQqHiTEnPAVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:43:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5KSAeAi4r+xuj9HDguy1uRYMLs7z7r/wQqHiTEnPAVs="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/large.ob8jsq3u0m.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/large.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5KSAeAi4r+xuj9HDguy1uRYMLs7z7r/wQqHiTEnPAVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:43:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ob8jsq3u0m"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/large.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5KSAeAi4r+xuj9HDguy1uRYMLs7z7r/wQqHiTEnPAVs="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/map-Federated-States-of-Micronesia.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/map-Federated-States-of-Micronesia.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "307127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c03emt0lf3tCHQP6+OoMRxfC6q/HwdXIYamVRxMt/mk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:17:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c03emt0lf3tCHQP6+OoMRxfC6q/HwdXIYamVRxMt/mk="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/map-Federated-States-of-Micronesia.zs6km2p5rn.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/map-Federated-States-of-Micronesia.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "307127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c03emt0lf3tCHQP6+OoMRxfC6q/HwdXIYamVRxMt/mk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:17:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zs6km2p5rn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/map-Federated-States-of-Micronesia.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c03emt0lf3tCHQP6+OoMRxfC6q/HwdXIYamVRxMt/mk="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/Micronesia_653px.3m9z9fz1f0.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/Micronesia_653px.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lS8UcNlHetTdh9jxNvSTqvLgAVVFukR2Nf+QHhrLVf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:42:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3m9z9fz1f0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/Micronesia_653px.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lS8UcNlHetTdh9jxNvSTqvLgAVVFukR2Nf+QHhrLVf0="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/Micronesia_653px.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/Micronesia_653px.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lS8UcNlHetTdh9jxNvSTqvLgAVVFukR2Nf+QHhrLVf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:42:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lS8UcNlHetTdh9jxNvSTqvLgAVVFukR2Nf+QHhrLVf0="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/micronesia-70-palau-islands.7v9aol3ql0.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/micronesia-70-palau-islands.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c4zC3nFKjWFgMGvc24Ani3zyhfTj7pa/FNc4zvoJB6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:34:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7v9aol3ql0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/micronesia-70-palau-islands.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c4zC3nFKjWFgMGvc24Ani3zyhfTj7pa/FNc4zvoJB6U="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/micronesia-70-palau-islands.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/micronesia-70-palau-islands.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c4zC3nFKjWFgMGvc24Ani3zyhfTj7pa/FNc4zvoJB6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:34:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c4zC3nFKjWFgMGvc24Ani3zyhfTj7pa/FNc4zvoJB6U="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/Outrigger-Micronesia-Jonathan-Rossouw.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/Outrigger-Micronesia-Jonathan-Rossouw.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rqzg1qRu7QMvH6m3D9odjkEEkPGabPg2YHXZ6ZkYUFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:34:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rqzg1qRu7QMvH6m3D9odjkEEkPGabPg2YHXZ6ZkYUFU="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/Outrigger-Micronesia-Jonathan-Rossouw.q734fhjxwp.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/Outrigger-Micronesia-Jonathan-Rossouw.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rqzg1qRu7QMvH6m3D9odjkEEkPGabPg2YHXZ6ZkYUFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:34:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q734fhjxwp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/Outrigger-Micronesia-Jonathan-Rossouw.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rqzg1qRu7QMvH6m3D9odjkEEkPGabPg2YHXZ6ZkYUFU="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/photo-1493558103817-58b2924bce98.1w85vncaxf.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/photo-1493558103817-58b2924bce98.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "210530"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QTeDrfd7NVk0KtK0PC1GnCoaL/1xhS2nizUxEIpkbTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 01:07:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1w85vncaxf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/photo-1493558103817-58b2924bce98.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QTeDrfd7NVk0KtK0PC1GnCoaL/1xhS2nizUxEIpkbTU="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/photo-1493558103817-58b2924bce98.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/photo-1493558103817-58b2924bce98.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "210530"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QTeDrfd7NVk0KtK0PC1GnCoaL/1xhS2nizUxEIpkbTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 01:07:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QTeDrfd7NVk0KtK0PC1GnCoaL/1xhS2nizUxEIpkbTU="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/photo-1500375592092-40eb2168fd21.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/photo-1500375592092-40eb2168fd21.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "263317"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6c2lrNvlJIkXYk1AlRTCygzrECwf46knMGo4+yv5Twk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 01:07:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6c2lrNvlJIkXYk1AlRTCygzrECwf46knMGo4+yv5Twk="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/photo-1500375592092-40eb2168fd21.xehzv798iv.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/photo-1500375592092-40eb2168fd21.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "263317"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6c2lrNvlJIkXYk1AlRTCygzrECwf46knMGo4+yv5Twk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 01:07:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xehzv798iv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/photo-1500375592092-40eb2168fd21.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6c2lrNvlJIkXYk1AlRTCygzrECwf46knMGo4+yv5Twk="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/photo-1501785888041-af3ef285b470.9cxovp4gbx.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/photo-1501785888041-af3ef285b470.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230556"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N36aMJHLq/byqoUafTIi9GDJwS49QgbpMp+UtlJQdCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 01:08:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9cxovp4gbx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/photo-1501785888041-af3ef285b470.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N36aMJHLq/byqoUafTIi9GDJwS49QgbpMp+UtlJQdCE="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/photo-1501785888041-af3ef285b470.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/photo-1501785888041-af3ef285b470.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230556"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N36aMJHLq/byqoUafTIi9GDJwS49QgbpMp+UtlJQdCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 01:08:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N36aMJHLq/byqoUafTIi9GDJwS49QgbpMp+UtlJQdCE="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/photo-1507525428034-b723cf961d3e.679l3kmp3b.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/photo-1507525428034-b723cf961d3e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "177527"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LovA8Uy2AKm9P2gS2F+4f+U4sqOgjadC8yoWtO50Hvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 01:06:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "679l3kmp3b"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/photo-1507525428034-b723cf961d3e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LovA8Uy2AKm9P2gS2F+4f+U4sqOgjadC8yoWtO50Hvs="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/photo-1507525428034-b723cf961d3e.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/photo-1507525428034-b723cf961d3e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "177527"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LovA8Uy2AKm9P2gS2F+4f+U4sqOgjadC8yoWtO50Hvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 01:06:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LovA8Uy2AKm9P2gS2F+4f+U4sqOgjadC8yoWtO50Hvs="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/photo-1519046904884-53103b34b206.2mp5i7c825.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/photo-1519046904884-53103b34b206.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6p542/tyHONDNSwtqiU2Cud8nvNMVIAyUntuDmSxvJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 01:07:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2mp5i7c825"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/photo-1519046904884-53103b34b206.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6p542/tyHONDNSwtqiU2Cud8nvNMVIAyUntuDmSxvJM="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/photo-1519046904884-53103b34b206.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/photo-1519046904884-53103b34b206.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6p542/tyHONDNSwtqiU2Cud8nvNMVIAyUntuDmSxvJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 01:07:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6p542/tyHONDNSwtqiU2Cud8nvNMVIAyUntuDmSxvJM="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/subpages/5bfe12470a26ac443792d007_Chuuk-01.chyj93bsmo.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/subpages/5bfe12470a26ac443792d007_Chuuk-01.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UHqvSSR2qOZmaa6w2fHMUYuXMNWZED+/SzV4X1erNJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 01:43:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "chyj93bsmo"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/subpages/5bfe12470a26ac443792d007_Chuuk-01.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UHqvSSR2qOZmaa6w2fHMUYuXMNWZED+/SzV4X1erNJM="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/subpages/5bfe12470a26ac443792d007_Chuuk-01.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/subpages/5bfe12470a26ac443792d007_Chuuk-01.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UHqvSSR2qOZmaa6w2fHMUYuXMNWZED+/SzV4X1erNJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 01:43:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UHqvSSR2qOZmaa6w2fHMUYuXMNWZED+/SzV4X1erNJM="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/subpages/about.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/subpages/about.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8YIGtAr7WguXy6+I/lJySnpfWL3NEicRu4d53xPvGEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 17:22:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8YIGtAr7WguXy6+I/lJySnpfWL3NEicRu4d53xPvGEc="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/subpages/about.zv1qtxhe94.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/subpages/about.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8YIGtAr7WguXy6+I/lJySnpfWL3NEicRu4d53xPvGEc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 17:22:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zv1qtxhe94"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/subpages/about.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8YIGtAr7WguXy6+I/lJySnpfWL3NEicRu4d53xPvGEc="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/subpages/caption.6mxo0hwpuj.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/subpages/caption.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "532032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0hvZbm3p017gAV2suq15+agrATqQPICXy4zCWe6wgus=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 20:03:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6mxo0hwpuj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/subpages/caption.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0hvZbm3p017gAV2suq15+agrATqQPICXy4zCWe6wgus="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/subpages/caption.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/subpages/caption.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "532032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0hvZbm3p017gAV2suq15+agrATqQPICXy4zCWe6wgus=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 May 2026 20:03:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0hvZbm3p017gAV2suq15+agrATqQPICXy4zCWe6wgus="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/subpages/Hiking-&-Walking_3.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/subpages/Hiking-&-Walking_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LXvVMGIuQ3w3unDP+PfyQ71SGfTuX+8Xqg51JkI1g4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 May 2026 06:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LXvVMGIuQ3w3unDP+PfyQ71SGfTuX+8Xqg51JkI1g4I="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/subpages/Hiking-&-Walking_3.lqjpb8syqg.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/subpages/Hiking-&-Walking_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LXvVMGIuQ3w3unDP+PfyQ71SGfTuX+8Xqg51JkI1g4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 May 2026 06:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqjpb8syqg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/subpages/Hiking-&-Walking_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LXvVMGIuQ3w3unDP+PfyQ71SGfTuX+8Xqg51JkI1g4I="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/Truk-Lagoon-Master-Liveaboards.5dgbga37h8.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/Truk-Lagoon-Master-Liveaboards.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z3ABls5qWd7b0iRaYSX3ubE4f/3OkcYpbLUxhNANcwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:42:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5dgbga37h8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pages/Truk-Lagoon-Master-Liveaboards.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z3ABls5qWd7b0iRaYSX3ubE4f/3OkcYpbLUxhNANcwU="
+        }
+      ]
+    },
+    {
+      "Route": "images/pages/Truk-Lagoon-Master-Liveaboards.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pages/Truk-Lagoon-Master-Liveaboards.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z3ABls5qWd7b0iRaYSX3ubE4f/3OkcYpbLUxhNANcwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:42:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z3ABls5qWd7b0iRaYSX3ubE4f/3OkcYpbLUxhNANcwU="
+        }
+      ]
+    },
+    {
+      "Route": "images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16023"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2jrxSV7OS9uLGYFwId4dKQc9UGL8t1u5cB13GwEEFkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:00:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2jrxSV7OS9uLGYFwId4dKQc9UGL8t1u5cB13GwEEFkA="
+        }
+      ]
+    },
+    {
+      "Route": "images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.yhyi686g0l.png",
+      "AssetFile": "/home/user/first-net/wwwroot/images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16023"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2jrxSV7OS9uLGYFwId4dKQc9UGL8t1u5cB13GwEEFkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:00:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yhyi686g0l"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2jrxSV7OS9uLGYFwId4dKQc9UGL8t1u5cB13GwEEFkA="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/_DSC5244.egbvs0ao5y.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/_DSC5244.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1001366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qnhy+qgRk+yBnYG8WSXF71oxQoiU8iG1ckeuqoaFOZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 18:51:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "egbvs0ao5y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/slides/_DSC5244.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qnhy+qgRk+yBnYG8WSXF71oxQoiU8iG1ckeuqoaFOZo="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/_DSC5244.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/_DSC5244.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1001366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qnhy+qgRk+yBnYG8WSXF71oxQoiU8iG1ckeuqoaFOZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 18:51:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qnhy+qgRk+yBnYG8WSXF71oxQoiU8iG1ckeuqoaFOZo="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/do_yap_communityhouse.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/do_yap_communityhouse.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "936492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bb7Fco0MIIPo9RphXuxLs4yUZfigi74B83tN0wvFimY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 18:22:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bb7Fco0MIIPo9RphXuxLs4yUZfigi74B83tN0wvFimY="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/do_yap_communityhouse.v1h9f9pnb2.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/do_yap_communityhouse.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "936492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bb7Fco0MIIPo9RphXuxLs4yUZfigi74B83tN0wvFimY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 18:22:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v1h9f9pnb2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/slides/do_yap_communityhouse.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bb7Fco0MIIPo9RphXuxLs4yUZfigi74B83tN0wvFimY="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/Header-Micronesia-Fefan-Aerial.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/Header-Micronesia-Fefan-Aerial.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W8S5i0Hm4Wd2jIZ6umm+65Bdd71YOKeHCetoFKbx1lk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 18:21:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W8S5i0Hm4Wd2jIZ6umm+65Bdd71YOKeHCetoFKbx1lk="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/Header-Micronesia-Fefan-Aerial.zirca1gvrc.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/Header-Micronesia-Fefan-Aerial.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W8S5i0Hm4Wd2jIZ6umm+65Bdd71YOKeHCetoFKbx1lk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 18:21:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zirca1gvrc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/slides/Header-Micronesia-Fefan-Aerial.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W8S5i0Hm4Wd2jIZ6umm+65Bdd71YOKeHCetoFKbx1lk="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/lrm_export_20180529_125706.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/lrm_export_20180529_125706.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1329284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i6JyDSAcJoeU6nvpZHI+PW2Qpa5jGV7Q94E8IeSqZrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 19:47:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i6JyDSAcJoeU6nvpZHI+PW2Qpa5jGV7Q94E8IeSqZrQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/lrm_export_20180529_125706.t6sr2xv9wh.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/lrm_export_20180529_125706.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1329284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i6JyDSAcJoeU6nvpZHI+PW2Qpa5jGV7Q94E8IeSqZrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 19:47:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t6sr2xv9wh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/slides/lrm_export_20180529_125706.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i6JyDSAcJoeU6nvpZHI+PW2Qpa5jGV7Q94E8IeSqZrQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/micronesia-man-at-sea-23bga5envi661uy5.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/micronesia-man-at-sea-23bga5envi661uy5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/gCuXwzbjcSPsDOfs6sQLG99W3dYIYRgD6Nl5uSj3u4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 18:22:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/gCuXwzbjcSPsDOfs6sQLG99W3dYIYRgD6Nl5uSj3u4="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/micronesia-man-at-sea-23bga5envi661uy5.u9y642wti8.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/micronesia-man-at-sea-23bga5envi661uy5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/gCuXwzbjcSPsDOfs6sQLG99W3dYIYRgD6Nl5uSj3u4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 18:22:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u9y642wti8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/slides/micronesia-man-at-sea-23bga5envi661uy5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/gCuXwzbjcSPsDOfs6sQLG99W3dYIYRgD6Nl5uSj3u4="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/photo-1553602889-f85ab725f992.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/photo-1553602889-f85ab725f992.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3684358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1knMnAyax7gvfZipJ8tUUxstYzLRAmzSI13n1Rajzdo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:09:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1knMnAyax7gvfZipJ8tUUxstYzLRAmzSI13n1Rajzdo="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/photo-1553602889-f85ab725f992.ypbawks102.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/photo-1553602889-f85ab725f992.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3684358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1knMnAyax7gvfZipJ8tUUxstYzLRAmzSI13n1Rajzdo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:09:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ypbawks102"
+        },
+        {
+          "Name": "label",
+          "Value": "images/slides/photo-1553602889-f85ab725f992.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1knMnAyax7gvfZipJ8tUUxstYzLRAmzSI13n1Rajzdo="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/photo-1553602932-f93f674a9aaa.fdv9fc7spl.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/photo-1553602932-f93f674a9aaa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9733727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E5aMakSdA/4YW+WAmrQ3+e1c5Qk8kCN77f2F3omvwhU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fdv9fc7spl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/slides/photo-1553602932-f93f674a9aaa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E5aMakSdA/4YW+WAmrQ3+e1c5Qk8kCN77f2F3omvwhU="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/photo-1553602932-f93f674a9aaa.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/photo-1553602932-f93f674a9aaa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9733727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E5aMakSdA/4YW+WAmrQ3+e1c5Qk8kCN77f2F3omvwhU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:09:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E5aMakSdA/4YW+WAmrQ3+e1c5Qk8kCN77f2F3omvwhU="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/wp2218416.al5tyvjf6h.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/wp2218416.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ju8j9RWuWQAWOPvNy6j4cRrD2mdmFNggPaQji0S8E4s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 18:22:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "al5tyvjf6h"
+        },
+        {
+          "Name": "label",
+          "Value": "images/slides/wp2218416.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ju8j9RWuWQAWOPvNy6j4cRrD2mdmFNggPaQji0S8E4s="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/wp2218416.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/wp2218416.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ju8j9RWuWQAWOPvNy6j4cRrD2mdmFNggPaQji0S8E4s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 18:22:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ju8j9RWuWQAWOPvNy6j4cRrD2mdmFNggPaQji0S8E4s="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/YAP_Cover-Shot-Option-1.c5ploql4wg.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/YAP_Cover-Shot-Option-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "405520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kIKQvVzhye0AVOjcRfNyQK04snU6612mub2AXW7hvrA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:10:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c5ploql4wg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/slides/YAP_Cover-Shot-Option-1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kIKQvVzhye0AVOjcRfNyQK04snU6612mub2AXW7hvrA="
+        }
+      ]
+    },
+    {
+      "Route": "images/slides/YAP_Cover-Shot-Option-1.jpg",
+      "AssetFile": "/home/user/first-net/wwwroot/images/slides/YAP_Cover-Shot-Option-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "405520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kIKQvVzhye0AVOjcRfNyQK04snU6612mub2AXW7hvrA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 May 2026 00:10:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kIKQvVzhye0AVOjcRfNyQK04snU6612mub2AXW7hvrA="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.4a6zaidqf3.js",
+      "AssetFile": "/home/user/first-net/obj/Debug/net9.0/compressed/3lcv7c3j9k-4a6zaidqf3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000911577028"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1096"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zv5j+uReP6YDmZOg2EyK/RBzWN5U3WnKSfGSYiD9jOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 May 2026 19:13:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dNMlVwPyqsOOn8CAJAudisD0xdBz+jikRuifdV7B/K4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4a6zaidqf3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dNMlVwPyqsOOn8CAJAudisD0xdBz+jikRuifdV7B/K4="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.4a6zaidqf3.js",
+      "AssetFile": "/home/user/first-net/wwwroot/js/app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dNMlVwPyqsOOn8CAJAudisD0xdBz+jikRuifdV7B/K4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 May 2026 19:13:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4a6zaidqf3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dNMlVwPyqsOOn8CAJAudisD0xdBz+jikRuifdV7B/K4="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.4a6zaidqf3.js.gz",
+      "AssetFile": "/home/user/first-net/obj/Debug/net9.0/compressed/3lcv7c3j9k-4a6zaidqf3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1096"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zv5j+uReP6YDmZOg2EyK/RBzWN5U3WnKSfGSYiD9jOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 May 2026 19:13:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4a6zaidqf3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/app.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zv5j+uReP6YDmZOg2EyK/RBzWN5U3WnKSfGSYiD9jOk="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js",
+      "AssetFile": "/home/user/first-net/obj/Debug/net9.0/compressed/3lcv7c3j9k-4a6zaidqf3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000911577028"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1096"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zv5j+uReP6YDmZOg2EyK/RBzWN5U3WnKSfGSYiD9jOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 May 2026 19:13:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dNMlVwPyqsOOn8CAJAudisD0xdBz+jikRuifdV7B/K4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dNMlVwPyqsOOn8CAJAudisD0xdBz+jikRuifdV7B/K4="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js",
+      "AssetFile": "/home/user/first-net/wwwroot/js/app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dNMlVwPyqsOOn8CAJAudisD0xdBz+jikRuifdV7B/K4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 May 2026 19:13:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dNMlVwPyqsOOn8CAJAudisD0xdBz+jikRuifdV7B/K4="
+        }
+      ]
+    },
+    {
+      "Route": "js/app.js.gz",
+      "AssetFile": "/home/user/first-net/obj/Debug/net9.0/compressed/3lcv7c3j9k-4a6zaidqf3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1096"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zv5j+uReP6YDmZOg2EyK/RBzWN5U3WnKSfGSYiD9jOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 May 2026 19:13:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zv5j+uReP6YDmZOg2EyK/RBzWN5U3WnKSfGSYiD9jOk="
+        }
+      ]
+    }
+  ]
+}

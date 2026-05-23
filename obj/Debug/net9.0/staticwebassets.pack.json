@@ -1,0 +1,145 @@
+{
+  "Files": [
+    {
+      "Id": "/home/user/first-net/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/flag-button-round-250.png",
+      "PackagePath": "staticwebassets/images/flag-button-round-250.png"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/0eeee50b_y.jpg",
+      "PackagePath": "staticwebassets/images/pages/0eeee50b_y.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/Kosrae.jpg",
+      "PackagePath": "staticwebassets/images/pages/Kosrae.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/Micronesia_653px.jpg",
+      "PackagePath": "staticwebassets/images/pages/Micronesia_653px.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/Outrigger-Micronesia-Jonathan-Rossouw.jpg",
+      "PackagePath": "staticwebassets/images/pages/Outrigger-Micronesia-Jonathan-Rossouw.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/Truk-Lagoon-Master-Liveaboards.jpg",
+      "PackagePath": "staticwebassets/images/pages/Truk-Lagoon-Master-Liveaboards.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/large.jpg",
+      "PackagePath": "staticwebassets/images/pages/large.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/map-Federated-States-of-Micronesia.jpg",
+      "PackagePath": "staticwebassets/images/pages/map-Federated-States-of-Micronesia.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/micronesia-70-palau-islands.jpg",
+      "PackagePath": "staticwebassets/images/pages/micronesia-70-palau-islands.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/photo-1493558103817-58b2924bce98.jpg",
+      "PackagePath": "staticwebassets/images/pages/photo-1493558103817-58b2924bce98.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/photo-1500375592092-40eb2168fd21.jpg",
+      "PackagePath": "staticwebassets/images/pages/photo-1500375592092-40eb2168fd21.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/photo-1501785888041-af3ef285b470.jpg",
+      "PackagePath": "staticwebassets/images/pages/photo-1501785888041-af3ef285b470.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/photo-1507525428034-b723cf961d3e.jpg",
+      "PackagePath": "staticwebassets/images/pages/photo-1507525428034-b723cf961d3e.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/photo-1519046904884-53103b34b206.jpg",
+      "PackagePath": "staticwebassets/images/pages/photo-1519046904884-53103b34b206.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/subpages/5bfe12470a26ac443792d007_Chuuk-01.jpg",
+      "PackagePath": "staticwebassets/images/pages/subpages/5bfe12470a26ac443792d007_Chuuk-01.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/subpages/Hiking-&-Walking_3.jpg",
+      "PackagePath": "staticwebassets/images/pages/subpages/Hiking-&-Walking_3.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/subpages/about.jpg",
+      "PackagePath": "staticwebassets/images/pages/subpages/about.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pages/subpages/caption.jpg",
+      "PackagePath": "staticwebassets/images/pages/subpages/caption.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png",
+      "PackagePath": "staticwebassets/images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/slides/Header-Micronesia-Fefan-Aerial.jpg",
+      "PackagePath": "staticwebassets/images/slides/Header-Micronesia-Fefan-Aerial.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/slides/YAP_Cover-Shot-Option-1.jpg",
+      "PackagePath": "staticwebassets/images/slides/YAP_Cover-Shot-Option-1.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/slides/_DSC5244.jpg",
+      "PackagePath": "staticwebassets/images/slides/_DSC5244.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/slides/do_yap_communityhouse.jpg",
+      "PackagePath": "staticwebassets/images/slides/do_yap_communityhouse.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/slides/lrm_export_20180529_125706.jpg",
+      "PackagePath": "staticwebassets/images/slides/lrm_export_20180529_125706.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/slides/micronesia-man-at-sea-23bga5envi661uy5.jpg",
+      "PackagePath": "staticwebassets/images/slides/micronesia-man-at-sea-23bga5envi661uy5.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/slides/photo-1553602889-f85ab725f992.jpg",
+      "PackagePath": "staticwebassets/images/slides/photo-1553602889-f85ab725f992.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/slides/photo-1553602932-f93f674a9aaa.jpg",
+      "PackagePath": "staticwebassets/images/slides/photo-1553602932-f93f674a9aaa.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/images/slides/wp2218416.jpg",
+      "PackagePath": "staticwebassets/images/slides/wp2218416.jpg"
+    },
+    {
+      "Id": "/home/user/first-net/wwwroot/js/app.js",
+      "PackagePath": "staticwebassets/js/app.js"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.myapp.props",
+      "PackagePath": "build\\myapp.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.myapp.props",
+      "PackagePath": "buildMultiTargeting\\myapp.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.myapp.props",
+      "PackagePath": "buildTransitive\\myapp.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.myapp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.myapp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

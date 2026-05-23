@@ -1,0 +1,120 @@
+@model myapp.Pages.CultureModel
+
+<style> 
+#culture { 
+    font-family: "EB Garamond", serif;
+    position: relative;
+} 
+.page-subtitle-wrapper {
+    width: 100%;
+    left: 0;
+    margin-top: 10px; 
+    pointer-events: none;
+} 
+.page-subtitle {
+    font-family: "Courgette", cursive;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.85;
+    margin: 0;  
+}
+.pushed-grid {
+    transform: translateY(50px);
+}
+.culture-heading {
+    font-weight: 500;
+    font-family: "Courgette", cursive;
+    margin-bottom: 8px;
+} 
+#culture .uk-divider-icon {
+    background-image: 
+        linear-gradient(to right, transparent, #ffd6e5, transparent),
+        linear-gradient(to right, transparent, #ffd6e5, transparent);
+}
+#culture .uk-grid-divider > :not(.uk-first-column)::before {
+    border-left: 1px solid #ff8fb1;
+}
+.culture-image-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    pointer-events: none;
+    width: clamp(50px, 6vw, 90px);
+}
+.culture-image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@@media (min-width: 768px) and (max-width: 912px) {
+    .uk-divider-icon {
+        margin-top: 60px;
+    }
+    .uk-grid-divider p {
+        margin-top: 10px;
+        width: 70%; 
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }  
+    .culture-image-wrapper {
+        bottom: -80px;
+    }
+}
+
+@@media screen and (max-width: 912px) { 
+    #culture .uk-grid-divider { 
+        display: flex;
+        flex-direction: column;
+    }
+    #culture .uk-grid-divider > div {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    #culture .uk-grid-divider > :not(.uk-first-column)::before {
+        border-left: none;
+    }
+    #culture .uk-width-large {
+        margin-top: 20px;
+    }
+    .page-subtitle {
+        padding: 0 15px;
+        line-height: 1.5;
+    } 
+}
+</style>
+
+<div id="culture" class="page-main uk-section uk-flex uk-flex-center">
+  <div class="uk-width-1-1 uk-width-3-4@m uk-text-center">
+
+    <h6 class="page-title uk-text-bold uk-text-center">
+      Experience the Rich Culture of Micronesia
+    </h6> 
+
+    <div class="page-subtitle-wrapper">
+        <h6 class="page-subtitle uk-text-center">
+          From ancient navigation to vibrant island life, discover Micronesia’s spirit and heritage.
+        </h6>
+    </div>
+
+    <hr class="uk-divider-icon">
+
+    <div class="uk-grid-divider uk-child-width-expand@s uk-margin-medium-top uk-flex-center" uk-grid>
+        <div class="uk-width-large">
+          <p>Micronesian culture is deeply rooted in ocean navigation, oral tradition, and a profound respect for ancestral knowledge passed down through generations. For thousands of years, master navigators have crossed vast stretches of the Pacific without modern instruments, relying instead on stars, wave patterns, bird flight, and ocean swells to guide their journeys between islands. This extraordinary seafaring tradition is more than survival—it is a living expression of identity, resilience, and harmony with nature. Today, these ancient practices are still taught and honored, keeping the connection between past and present alive while reminding younger generations of their place within a vast and shared ocean world.</p>
+        </div>
+
+        <div class="uk-width-large">
+          <p> Across the diverse islands of Micronesia, cultural life is shaped by strong community ties, deep family values, and traditions that vary from island to island yet share common roots. Languages, legends, and ceremonies are carefully preserved, often shared through storytelling, dance, music, and handcrafted art that reflects both spiritual meaning and everyday life. Traditional practices remain central to celebrations and communal gatherings, reinforcing unity while honoring local identity. At the same time, island communities continue to adapt to the modern world, balancing change with preservation, and maintaining a strong and enduring connection to the land, sea, and cultural heritage that defines who they are.</p>
+        </div>  
+    </div> 
+
+    <div class="culture-image-wrapper">
+        <img src="~/images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png" 
+            alt="Island Life">
+    </div>
+
+  </div>
+</div>  

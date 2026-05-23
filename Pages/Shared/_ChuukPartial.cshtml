@@ -1,0 +1,205 @@
+@model myapp.Pages.ChuukModel
+
+<style>
+html, body {
+  font-size: 12px;
+} 
+#chuuk-grid h6 {
+  font-weight: 500;
+  font-family: "Courgette", cursive;
+}  
+.water-hover {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+} 
+.water-hover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+.water-hover:hover img {
+  transform: scale(1.05);
+  filter: url(#waterRipple) brightness(1.08) saturate(1.3);
+}
+.water-hover::before,
+.water-hover::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: none;
+}
+.water-hover::before {
+  border: 2px solid rgba(255,255,255,0.5);
+}
+.water-hover::after {
+  border: 2px solid rgba(255,255,255,0.3);
+}
+.water-hover:hover::before {
+  animation: ripple 1s ease-out forwards;
+}
+.water-hover:hover::after {
+  animation: ripple 1s ease-out 0.15s forwards;
+}
+
+@@keyframes ripple {
+  0% {
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+#chuuk-grid ul li { 
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: box-shadow 0.25s ease;
+}
+#chuuk-grid ul li {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 6px; 
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease;
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+}
+#chuuk-grid ul li::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.08);
+  transform: scale(1);
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  opacity: 0;
+  z-index: 0;
+} 
+#chuuk-grid ul li:hover {  
+  font-weight: 700; 
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+  z-index: 10; 
+} 
+#chuuk-grid ul li:hover::before {
+  transform: scale(1.05);
+  opacity: 1; 
+} 
+
+@@media screen and (min-width: 1000px) { 
+  #chuuk-grid ul li:hover {
+    transform: translateY(-6px) scale(1.22) !important; 
+    z-index: 50 !important; 
+  } 
+}
+</style>
+
+<div class="page-main uk-section uk-flex uk-flex-center">
+  <div class="uk-width-1-1 uk-width-3-4@m uk-text-center">
+
+    <h6 class="page-title uk-text-bold uk-text-center uk-margin-small-bottom">
+      Chuuk Calls to the Explorer
+    </h6>
+
+  <div id="chuuk-grid" class="uk-grid-divider uk-child-width-1-1@m uk-child-width-1-3@l uk-flex uk-flex-center" uk-grid> 
+
+  <div class="uk-width-1-1">
+        <h6 class="uk-text-normal uk-text-center uk-margin-xsmall-bottom">
+          Chuuk State ~ The Federated States of Micronesia
+        </h6>
+  </div>
+
+    <div class="water-hover uk-width-expand">
+      <img src="~/images/pages/subpages/5bfe12470a26ac443792d007_Chuuk-01.jpg" alt="Explore Micronesia" style="width: 200px; height: 200px; border-radius: 15px;">  
+    </div>
+
+    <div class="uk-text-left@s uk-text-center">
+      Chuuk, located in the Federated States of Micronesia, is known for its
+      crystal-clear lagoons, tropical islands, and rich World War II history.
+      The island is home to the famous Chuuk Lagoon, one of the world’s most
+      renowned diving destinations, featuring sunken ships, vibrant coral reefs,
+      and diverse marine life. Beyond the ocean, visitors can experience the
+      warm hospitality, traditional culture, and breathtaking natural beauty
+      that make Chuuk a unique Pacific paradise.
+    </div>
+
+    <div> 
+      <ul class="uk-list uk-list-divider uk-text-bold" style="font-size: 8px;">
+        <li>
+          Chuuk Lagoon is considered one of the world’s premier wreck diving sites, with over 60 Japanese WWII shipwrecks resting beneath its clear waters.
+        </li>
+        <li>
+          The outer islands of Chuuk are more remote and traditional, where many communities still rely on subsistence fishing and canoe travel.
+        </li>
+        <li>
+          The marine ecosystem includes vibrant coral reefs, manta rays, reef sharks, and hundreds of tropical fish species unique to Micronesia.
+        </li>
+        <li>
+          Chuukese culture is deeply rooted in family, oral history, and traditional navigation techniques passed down through generations.
+        </li>
+        <li>
+          Despite its natural beauty, Chuuk faces challenges such as limited infrastructure and climate vulnerability, making conservation efforts increasingly important.
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  </div>
+</div>
+
+<svg style="display:none;">
+  <filter id="waterRipple">
+    <feTurbulence id="turbulence"
+      type="fractalNoise"
+      baseFrequency="0.008"
+      numOctaves="3"
+      seed="2"
+      result="noise">
+      <animate attributeName="baseFrequency"
+               dur="4s"
+               values="0.008;0.012;0.008"
+               repeatCount="indefinite"/>
+    </feTurbulence>
+
+    <feDisplacementMap
+      in="SourceGraphic"
+      in2="noise"
+      scale="0"
+      xChannelSelector="R"
+      yChannelSelector="G">
+      <animate attributeName="scale"
+               from="0"
+               to="35"
+               dur="0.4s"
+               begin="mouseover"
+               fill="freeze"/>
+      <animate attributeName="scale"
+               from="35"
+               to="0"
+               dur="0.6s"
+               begin="mouseout"
+               fill="freeze"/>
+    </feDisplacementMap>
+  </filter>
+</svg>

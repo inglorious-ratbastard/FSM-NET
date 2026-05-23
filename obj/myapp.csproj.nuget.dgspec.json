@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/build/myapp/myapp.csproj": {}
+    "/home/user/first-net/myapp.csproj": {}
   },
   "projects": {
-    "/build/myapp/myapp.csproj": {
+    "/home/user/first-net/myapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/build/myapp/myapp.csproj",
+        "projectUniqueName": "/home/user/first-net/myapp.csproj",
         "projectName": "myapp",
-        "projectPath": "/build/myapp/myapp.csproj",
+        "projectPath": "/home/user/first-net/myapp.csproj",
         "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/build/myapp/obj/",
+        "outputPath": "/home/user/first-net/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/user/.nuget/NuGet/NuGet.Config"

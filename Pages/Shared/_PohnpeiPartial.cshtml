@@ -1,0 +1,219 @@
+@model myapp.Pages.PohnpeiModel
+
+<style>
+html, body {
+  font-size: 12px;
+} 
+#pohnpei-grid h6 {
+  font-weight: 500;
+  font-family: "Courgette", cursive;
+}  
+.water-hover {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+} 
+.water-hover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+.water-hover:hover img {
+  transform: scale(1.05);
+  filter: url(#waterRipple) brightness(1.08) saturate(1.3);
+}
+.water-hover::before,
+.water-hover::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: none;
+}
+.water-hover::before {
+  border: 2px solid rgba(255,255,255,0.5);
+}
+.water-hover::after {
+  border: 2px solid rgba(255,255,255,0.3);
+}
+.water-hover:hover::before {
+  animation: ripple 1s ease-out forwards;
+}
+.water-hover:hover::after {
+  animation: ripple 1s ease-out 0.15s forwards;
+}
+
+@@keyframes ripple {
+  0% {
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+#pohnpei-grid ul li { 
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: box-shadow 0.25s ease;
+}
+#pohnpei-grid ul li {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 6px; 
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease;
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+}
+#pohnpei-grid ul li::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.08);
+  transform: scale(1);
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  opacity: 0;
+  z-index: 0;
+} 
+#pohnpei-grid ul li:hover {  
+  font-weight: 700; 
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+  z-index: 10; 
+} 
+#pohnpei-grid ul li:hover::before {
+  transform: scale(1.05);
+  opacity: 1; 
+} 
+
+@@media screen and (min-width: 1000px) { 
+  #pohnpei-grid ul li:hover {
+    transform: translateY(-6px) scale(1.22) !important; 
+    z-index: 50 !important; 
+  } 
+}
+</style>
+
+<div class="page-main uk-section uk-flex uk-flex-center">
+  <div class="uk-width-1-1 uk-width-3-4@m uk-text-center">
+
+    <h6 class="page-title uk-text-bold uk-text-center uk-margin-small-bottom">
+       The Secret Island of Rainforests & Reefs
+    </h6>
+
+  <div id="pohnpei-grid" class="uk-grid-divider uk-child-width-1-1@m uk-child-width-1-3@l uk-flex uk-flex-center" uk-grid> 
+
+  <div class="uk-width-1-1">
+        <h6 class="uk-text-normal uk-text-center uk-margin-xsmall-bottom">
+          Pohnpei State ~ The Federated States of Micronesia
+        </h6>
+  </div>
+
+    <div class="uk-text-left@s uk-text-center">
+        Pohnpei is one of the most lush and enchanting islands in the Federated States of Micronesia, known for its dense emerald rainforests, dramatic mountain peaks, and vibrant coral reef ecosystems. Often called a tropical paradise of the Pacific, the island blends untouched natural beauty with rich Micronesian culture and history. From mist-covered jungles and hidden waterfalls to the legendary ruins of Nan Madol and thriving marine life in its surrounding lagoons, Pohnpei offers a rare destination where nature, mystery, and tradition exist in perfect harmony.
+    </div>
+
+    <!-- <div> 
+      <ul class="uk-list uk-list-divider uk-text-bold" style="font-size: 8px;">
+        <li>
+          Kosrae is often called the “Jewel of Micronesia” because of its untouched rainforests, crystal-clear lagoons, and vibrant coral reefs.
+        </li>
+        <li>
+          The island is home to the ancient ruins of Leluh, a historic city built from massive stone structures that once served as a royal center.
+        </li>
+        <li>
+          Kosrae’s lush interior features scenic hiking trails, hidden waterfalls, and Mount Finkol, the island’s highest peak.
+        </li>
+        <li>
+          Snorkeling and diving around Kosrae reveal colorful coral gardens, sea turtles, reef fish, and some of the healthiest marine ecosystems in the Pacific.
+        </li>
+        <li>
+          Kosraean culture places strong importance on community, respect, family traditions, and preserving the island’s natural beauty for future generations.
+        </li>
+      </ul>
+    </div> -->
+
+    <div>
+        <ul class="uk-list uk-list-divider uk-text-bold" style="font-size: 8px;">
+            <li>
+            Pohnpei is home to Nan Madol, a mysterious ancient stone city built on artificial islets and often called the “Venice of the Pacific.”
+            </li>
+            <li>
+            The island is covered in dense tropical rainforest, making it one of the wettest places on Earth with lush green landscapes year-round.
+            </li>
+            <li>
+            Mount Nanlaud, Pohnpei’s highest peak, rises through cloud forests and offers some of the most dramatic hiking terrain in Micronesia.
+            </li>
+            <li>
+            Pohnpei’s surrounding reefs and lagoons are rich with marine life, including coral gardens, reef fish, turtles, and excellent diving spots.
+            </li>
+            <li>
+            Pohnpeian culture is deeply rooted in tradition, with strong community values, local customs, and a close connection to the land and ocean.
+            </li>
+        </ul>
+        </div>
+
+    <div class="water-hover uk-width-expand">
+    <img src="~/images/pages/subpages/caption.jpg" alt="Explore Micronesia" style="width: 200px; height: 200px; border-radius: 15px;">  
+    </div>
+
+  </div>
+
+  </div>
+</div>
+
+<svg style="display:none;">
+  <filter id="waterRipple">
+    <feTurbulence id="turbulence"
+      type="fractalNoise"
+      baseFrequency="0.008"
+      numOctaves="3"
+      seed="2"
+      result="noise">
+      <animate attributeName="baseFrequency"
+               dur="4s"
+               values="0.008;0.012;0.008"
+               repeatCount="indefinite"/>
+    </feTurbulence>
+
+    <feDisplacementMap
+      in="SourceGraphic"
+      in2="noise"
+      scale="0"
+      xChannelSelector="R"
+      yChannelSelector="G">
+      <animate attributeName="scale"
+               from="0"
+               to="35"
+               dur="0.4s"
+               begin="mouseover"
+               fill="freeze"/>
+      <animate attributeName="scale"
+               from="35"
+               to="0"
+               dur="0.6s"
+               begin="mouseout"
+               fill="freeze"/>
+    </feDisplacementMap>
+  </filter>
+</svg>

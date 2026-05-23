@@ -1,0 +1,88 @@
+<nav class="uk-navbar-container" uk-navbar style="background-color: #0B3C5D !important;">
+    <div class="uk-navbar-left uk-flex-wrap">
+
+        <a class="uk-navbar-item uk-logo uk-text-bold uk-text-small uk-margin-small-left"
+           style="font-size: 12px; color: #A7C7E7;" href="#">
+            <img src="~/images/flag-button-round-250.png"alt="Logo"
+            style="height: 24px; margin-right: 16px;">
+            Island Current FSM
+        </a>
+
+        <ul class="uk-navbar-nav uk-text-small uk-margin-medium-left uk-flex-wrap uk-visible@m">
+
+            <li><a href="/">Home</a></li>
+            <li><a href="/About">About</a></li>
+            <li><a href="/Travel">Travel</a></li>
+
+            <li>
+                <a href="/Explore">Explore</a>
+                <div class="uk-navbar-dropdown" style="background-color: #0B3C5D !important;">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li><a href="/Chuuk">Chuuk</a></li>
+                        <li><a href="/Kosrae">Kosrae</a></li>
+                        <li><a href="/Pohnpei">Pohnpei</a></li>
+                        <li><a href="/Yap">Yap</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li>
+                <a href="/Island">Island Life</a>
+                <div class="uk-navbar-dropdown" style="background-color: #0B3C5D !important;">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li><a href="/Culture">Culture</a></li>
+                        <li><a href="/Hospitality">Hospitality</a></li>
+                        <li><a href="/Coastal">Coastal Vibes</a></li>
+                        <li><a href="/Around">Getting Around</a></li>
+                        <li><a href="/Voices">Island Voices</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li><a href="/Destination">Destination</a></li>
+
+        </ul>
+    </div>
+
+    <div class="uk-navbar-right uk-hidden@m uk-margin-small-right">
+        <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#offcanvas-nav" uk-toggle style="color:white;"></a>
+    </div>
+
+</nav>
+
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar" style="background-color: #0B3C5D;">
+
+        <ul class="uk-nav uk-nav-default uk-margin-xlarge-top">
+
+            <li><a href="/">Home</a></li>
+            <li><a href="/About">About</a></li>
+            <li><a href="/Travel">Travel</a></li>
+
+            <li class="uk-parent">
+                <a href="/Explore">Explore</a>
+                <ul class="uk-nav-sub">
+                    <li><a href="/Chuuk">Chuuk</a></li>
+                    <li><a href="/Kosrae">Kosrae</a></li>
+                    <li><a href="/Pohnpei">Pohnpei</a></li>
+                    <li><a href="/Yap">Yap</a></li>
+                </ul>
+            </li>
+
+            <li class="uk-parent">
+                <a href="Island">Island Life</a>
+                <ul class="uk-nav-sub">
+                    <li><a href="/Culture">Culture</a></li>
+                    <li><a href="/Hospitality">Hospitality</a></li>
+                    <li><a href="/Coastal">Coastal Vibes</a></li>
+                    <li><a href="/Around">Getting Around</a></li>
+                    <li><a href="/Voices">Island Voices</a></li>
+                </ul>
+            </li>
+
+            <li><a href="/Destination">Destination</a></li>
+
+        </ul>
+
+    </div>
+</div>

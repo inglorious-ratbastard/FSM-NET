@@ -1,0 +1,124 @@
+@model myapp.Pages.CoastalModel
+
+<style> 
+#coastal { 
+    font-family: "EB Garamond", serif;
+    position: relative;
+} 
+.page-subtitle-wrapper {
+    width: 100%;
+    left: 0;
+    margin-top: 10px; 
+    pointer-events: none;
+} 
+.page-subtitle {
+    font-family: "Courgette", cursive;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.85;
+    margin: 0;  
+}
+.pushed-grid {
+    transform: translateY(50px);
+}
+.coastal-heading {
+    font-weight: 500;
+    font-family: "Courgette", cursive;
+    margin-bottom: 8px;
+} 
+#coastal .uk-divider-icon {
+    background-image: 
+        linear-gradient(to right, transparent, #ffd6e5, transparent),
+        linear-gradient(to right, transparent, #ffd6e5, transparent);
+}
+#coastal .uk-grid-divider > :not(.uk-first-column)::before {
+    border-left: 1px solid #ff8fb1;
+}
+.culture-image-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    pointer-events: none;
+    width: clamp(50px, 6vw, 90px);
+}
+.culture-image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@@media (min-width: 768px) and (max-width: 912px) {
+    .uk-divider-icon {
+        margin-top: 60px;
+    }
+    .uk-grid-divider p {
+        margin-top: 10px;
+        width: 70%; 
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }  
+    .culture-image-wrapper {
+        bottom: -80px;
+    }
+}
+
+@@media screen and (max-width: 912px) { 
+    #coastal .uk-grid-divider { 
+        display: flex;
+        flex-direction: column;
+    }
+    #coastal .uk-grid-divider > div {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    #coastal .uk-grid-divider > :not(.uk-first-column)::before {
+        border-left: none;
+    }
+    #coastal .uk-width-large {
+        margin-top: 20px;
+    }
+    .page-subtitle {
+        padding: 0 15px;
+        line-height: 1.5;
+    }
+}
+</style>
+
+<div id="coastal" class="page-main uk-section uk-flex uk-flex-center">
+  <div class="uk-width-1-1 uk-width-3-4@m uk-text-center">
+
+    <h6 class="page-title uk-text-bold uk-text-center">
+      Where Ocean Breezes Meet Island Tradition
+    </h6> 
+
+    <div class="page-subtitle-wrapper">
+        <h6 class="page-subtitle uk-text-center">
+          From coral shores to welcoming villages, experience the genuine soul of Micronesia.
+        </h6>
+    </div>
+
+    <hr class="uk-divider-icon">
+
+    <div class="uk-grid-divider uk-child-width-expand@s uk-margin-medium-top uk-flex-center" uk-grid>
+    <div class="uk-width-large">
+      <p>
+       Micronesia is filled with the calm rhythm of island living, where turquoise lagoons, swaying palms, and warm ocean breezes shape everyday life across the Pacific. Throughout the islands, peaceful coastal villages and vibrant tropical landscapes create an atmosphere centered around relaxation, connection, and appreciation for nature’s beauty. Days are often accompanied by the sound of gentle waves, colorful sunsets, and traditions passed through generations that continue to influence local life and culture. From quiet shorelines to lively community gatherings, the islands offer a welcoming environment that reflects simplicity, warmth, and the timeless charm of the Pacific.
+      </p>
+    </div>
+
+    <div class="uk-width-large">
+      <p>
+       Across Micronesia’s scattered island chains, life moves with a tranquil pace inspired by the sea, the tropical climate, and close-knit communities that value harmony and togetherness. Crystal-clear waters, coral reefs, and lush island scenery surround villages where music, storytelling, and shared experiences remain important parts of daily life and cultural identity. Visitors are often drawn to the relaxing atmosphere created by friendly locals, open-air gatherings, and traditions that blend naturally with the beauty of the surrounding ocean environment. Even as modern influences continue reaching the islands, Micronesia still preserves the peaceful spirit and tropical charm that make island life feel welcoming, authentic, and unforgettable.
+      </p>
+    </div>  
+</div>
+
+    <div class="culture-image-wrapper">
+        <img src="~/images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png" 
+            alt="Island Life">
+    </div>
+
+  </div>
+</div>  

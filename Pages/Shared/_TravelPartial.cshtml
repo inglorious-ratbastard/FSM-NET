@@ -1,0 +1,131 @@
+@model myapp.Pages.TravelModel
+
+<style>     
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.page-main {
+    flex: 1; 
+} 
+.page-subtitle-wrapper { 
+    width: 100%;
+    left: 0;
+    margin-top: 1px; 
+    pointer-events: none;
+} 
+.page-subtitle {
+    font-family: "Courgette", cursive;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.85;
+    margin: 0;  
+}
+.pushed-grid {
+    margin-top: 30px;
+}
+.uk-subnav a {  
+    font-family: "EB Garamond", serif;
+    color: #0096FF!important; 
+    font-weight: 600; 
+    filter: brightness(80%);
+}
+.uk-subnav a:hover {
+    filter: brightness(120%);
+}
+
+.inline-link {
+    margin-left: 6px;
+    font-size: 12px;
+    color: #66c2ff;
+    text-decoration: none; 
+} 
+.inline-link:hover {
+    text-decoration: underline;
+}
+
+@@media (max-width: 640px) {
+    .uk-switcher p {
+        text-align: center !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        max-width: 80vw;
+    }
+} 
+
+@@media (min-width: 768px) and (max-width: 912px) {
+    .uk-switcher .uk-flex {
+        flex-direction: column !important;
+    }
+    .uk-switcher .uk-flex img {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .uk-switcher .uk-flex p {
+        width: 70vw;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        text-align: center !important; 
+        line-height: 1.8;
+    }
+}
+</style>
+
+<div class="page-main uk-section uk-flex uk-flex-center"> 
+  <div class="uk-width-1-1 uk-width-3-4@m uk-text-center">
+
+    <h6 class="page-title uk-text-bold uk-text-center">  
+      Discover the Heart of Micronesia 
+    </h6>
+
+     <div class="page-subtitle-wrapper">
+        <h6 class="page-subtitle uk-text-center">
+          A journey through paradise, culture, history, and island life in the Pacific. 
+        </h6>
+    </div>
+
+    <ul class="uk-subnav uk-flex-center uk-margin-medium-top pushed-grid" uk-switcher="animation: uk-animation-fade">
+        <li><a href="#" style="font-size: 12px !important;">Explore</a></li>
+        <li><a href="#" style="font-size: 12px !important;">Adventure</a></li>
+        <li><a href="#" style="font-size: 12px !important;">Plan</a></li>
+    </ul>
+
+        <div class="uk-switcher uk-margin-top uk-width-1-1">
+
+            <div class="uk-flex uk-flex-middle uk-flex-center uk-gap-small uk-flex-wrap">
+                <img src="~/images/pages/micronesia-70-palau-islands.jpg" alt="Explore Micronesia" style="width: 200px; height: 200px; border-radius: 80%;">  
+
+                <p class="uk-width-1-2@l uk-text-left uk-margin-large-left">
+                  Discover Micronesia’s scattered islands, where lush jungles meet endless blue lagoons and coral reefs stretch as far as the eye can see. From hidden waterfalls tucked deep within rainforest trails to remote atolls surrounded by crystal-clear waters, each destination reveals a different side of island life. Whether you're chasing sunrise views over the ocean or drifting across calm lagoons, every island offers a sense of discovery and natural beauty waiting to be explored. The warm hospitality of local communities adds an even deeper layer of meaning to every journey across the islands. Time seems to slow down here, allowing travelers to fully immerse themselves in the rhythm of island life.
+                  <a href="https://www.micronesiatour.com/" class="inline-link">Explore destinations →</a>
+                </p>  
+            </div>
+
+            <div class="uk-flex uk-flex-middle uk-flex-center uk-gap-small uk-flex-wrap">
+                <p class="uk-width-1-2@l uk-text-left uk-margin-large-right">
+                  Dive into world-class reefs, hike through lush tropical forests, and experience the thrill of island life at every turn. Whether you're snorkeling in crystal-clear waters, fishing along quiet shores, or trekking off the beaten path, each adventure brings you closer to the natural beauty and spirit of Micronesia. Every moment offers a new way to explore, discover, and connect with the islands. It’s a place where adventure feels effortless and unforgettable. The diversity of landscapes ensures that no two experiences ever feel the same. Even the simplest journey can turn into a lasting memory shaped by the beauty of the surroundings.
+                  <a href="https://www.hideawayholidays.com.au/travel-blog/first-timers-guide-to-micronesia-how-to-get-there-things-to-do/" class="inline-link">See adventures →</a>
+                </p>
+
+                <img src="~/images/pages/Outrigger-Micronesia-Jonathan-Rossouw.jpg" alt="Adventure Micronesia" style="width: 200px; height: 200px; border-radius: 80%;">
+            </div>
+
+            <div class="uk-flex uk-flex-middle uk-flex-center uk-gap-small uk-flex-wrap">
+                <img src="~/images/pages/0eeee50b_y.jpg" alt="Plan your trip" style="width: 200px; height: 200px; border-radius: 80%;">
+
+                <p class="uk-width-1-2@l uk-text-left uk-margin-large-left">
+                  Get ready for your journey with essential travel tips, from the best times to visit to navigating between islands. Find guidance on planning your routes, choosing where to stay, and making the most of your time in each destination. Plan smarter, pack better, and enjoy a seamless Micronesian escape from start to finish. Travel with confidence knowing you’re prepared for every step of the journey. Every island offers something unique worth experiencing firsthand. Local transportation options are often simple but require a bit of flexibility due to island schedules. Taking time to research ahead can help you make the most of your stay and avoid unexpected delays.
+                  <a href="https://www.expedia.com/Federated-States-Of-Micronesia.d118.Destination-Travel-Guides" class="inline-link" style="margin-left: 0px !important;">Start planning →</a>
+                </p>
+            </div>
+
+        </div> 
+
+      </div>
+    </div>

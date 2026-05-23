@@ -1,0 +1,124 @@
+@model myapp.Pages.HospitalityModel
+
+<style> 
+#hospitality { 
+    font-family: "EB Garamond", serif;
+    position: relative;
+} 
+.page-subtitle-wrapper {
+    width: 100%;
+    left: 0;
+    margin-top: 10px; 
+    pointer-events: none;
+} 
+.page-subtitle {
+    font-family: "Courgette", cursive;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.85;
+    margin: 0;  
+}
+.pushed-grid {
+    transform: translateY(50px);
+}
+.hospitality-heading {
+    font-weight: 500;
+    font-family: "Courgette", cursive;
+    margin-bottom: 8px;
+} 
+#hospitality .uk-divider-icon {
+    background-image: 
+        linear-gradient(to right, transparent, #ffd6e5, transparent),
+        linear-gradient(to right, transparent, #ffd6e5, transparent);
+}
+#hospitality .uk-grid-divider > :not(.uk-first-column)::before {
+    border-left: 1px solid #ff8fb1;
+}
+.culture-image-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    pointer-events: none;
+    width: clamp(50px, 6vw, 90px);
+}
+.culture-image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@@media (min-width: 768px) and (max-width: 912px) {
+    .uk-divider-icon {
+        margin-top: 60px; 
+    }
+    .uk-grid-divider p {
+        margin-top: 10px;
+        width: 70%; 
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }  
+    .culture-image-wrapper {
+        bottom: -80px;
+    }
+} 
+
+@@media screen and (max-width: 912px) { 
+    #hospitality .uk-grid-divider { 
+        display: flex;
+        flex-direction: column;
+    }
+    #hospitality .uk-grid-divider > div {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    #hospitality .uk-grid-divider > :not(.uk-first-column)::before {
+        border-left: none;
+    }
+    #hospitality .uk-width-large {
+        margin-top: 20px;
+    }
+    .page-subtitle {
+        padding: 0 15px;
+        line-height: 1.5;
+    }
+}
+</style>
+
+<div id="hospitality" class="page-main uk-section uk-flex uk-flex-center">
+  <div class="uk-width-1-1 uk-width-3-4@m uk-text-center">
+
+    <h6 class="page-title uk-text-bold uk-text-center">
+      Discover the Genuine Warmth of Micronesia
+    </h6> 
+
+    <div class="page-subtitle-wrapper">
+        <h6 class="page-subtitle uk-text-center">
+          Step into communities shaped by tradition, generosity, and connection to the sea.
+        </h6>
+    </div>
+
+    <hr class="uk-divider-icon">
+
+    <div class="uk-grid-divider uk-child-width-expand@s uk-margin-medium-top uk-flex-center" uk-grid>
+    <div class="uk-width-large">
+      <p>
+        Hospitality in Micronesia is deeply rooted in community values, cultural tradition, and a sincere spirit of generosity shared across generations. For centuries, island communities have welcomed visitors with kindness, open homes, and a strong sense of togetherness, offering food, conversation, and companionship as meaningful expressions of respect and friendship. This tradition of hospitality is more than simple courtesy—it reflects identity, unity, and the importance of human connection within island life. Today, these welcoming customs continue throughout Micronesia, preserving traditional values while reminding younger generations of the importance of compassion, hospitality, and caring for both guests and community members alike.
+      </p>
+    </div>
+
+    <div class="uk-width-large">
+      <p>
+        Across the diverse islands of Micronesia, hospitality is shaped by strong family ties, shared traditions, and communities that value kindness and mutual respect. Gatherings, celebrations, and cultural events often bring people together through storytelling, music, dance, and shared meals that reflect both tradition and everyday island life. Visitors are commonly treated like extended family, welcomed into homes and communal spaces with sincerity and generosity that create a lasting sense of belonging. At the same time, Micronesian communities continue balancing modern influences with cultural preservation, maintaining the welcoming spirit that remains central to island identity and community life.
+      </p>
+    </div>  
+</div>
+
+    <div class="culture-image-wrapper">
+        <img src="~/images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png" 
+            alt="Island Life">
+    </div>
+
+  </div>
+</div>  

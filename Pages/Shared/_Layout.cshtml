@@ -1,0 +1,39 @@
+@{
+    var isPartial = Context.Request.Headers["X-Requested-With"] == "XMLHttpRequest";
+}
+
+@if (isPartial)
+{ 
+    <main id="app" class="uk-container uk-container-expand">
+        @RenderBody() 
+    </main>
+}
+else
+{
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="~/images/flag-button-round-250.png">
+    <title>@ViewData["Title"] Island Current FSM -🌼🌺 The Federated States of Micronesia 🌺🌼 </title> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.25.14/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="/css/app.css" /> 
+</head>
+<body>
+
+    @await Html.PartialAsync("_Navbar")  
+
+    <main id="app">
+        @RenderBody()
+    </main>
+
+    @await Html.PartialAsync("_Footer")
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.25.14/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.25.14/dist/js/uikit-icons.min.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
+}

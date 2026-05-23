@@ -1,0 +1,153 @@
+@model myapp.Pages.ExploreModel 
+
+<style> 
+.uk-card-title {
+    color: white !important;    
+} 
+.uk-card a {
+    color: white !important;
+} 
+.chuuk-card {
+    background-image: url("/images/pages/Truk-Lagoon-Master-Liveaboards.jpg");
+    background-size: cover;       
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white; 
+} 
+.kosrae-card {
+    background-image: url("/images/pages/Kosrae.jpg");
+     background-size: cover;       
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white; 
+} 
+.pohnpei-card {
+    background-image: url("/images/pages/Micronesia_653px.jpg");
+     background-size: cover;       
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white; 
+} 
+.yap-card {
+    background-image: url("/images/pages/large.jpg");
+     background-size: cover;       
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white; 
+} 
+.uk-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+} 
+.uk-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        120deg,
+        rgba(0, 200, 255, 0.15),
+        rgba(0, 255, 150, 0.1),
+        rgba(0, 120, 255, 0.15)
+    );
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+} 
+.uk-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,0.25),
+        transparent
+    );
+    transform: skewX(-20deg);
+}
+.uk-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 150, 200, 0.35);
+}
+.uk-card:hover::before {
+    opacity: 1;
+}
+.uk-card:hover::after {
+    animation: wave-shine 1.2s ease forwards;
+}
+.uk-card:hover .uk-card-title {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+                 0 0 20px rgba(0, 200, 255, 0.6);
+} 
+@@keyframes wave-shine {
+    100% {
+        left: 125%;
+    }
+} 
+.page-main {
+    position: relative;
+} 
+.explore-caption {
+    font-family: "Courgette", cursive;
+    font-size: 13px !important;
+    position: absolute;
+    bottom: -35px;             
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 500px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.85);  
+    background: linear-gradient(135deg,rgba(0, 100, 160, 0.5), rgba(0, 60, 120, 0.5));  
+    padding: 6px 12px;
+    border-radius: 20px; 
+    backdrop-filter: blur(4px); 
+}
+@@media (max-width: 640px) {
+    .explore-caption {
+        bottom: -3.438rem;
+        font-size: 0.75rem;
+    }
+}
+</style>
+
+<div class="page-main uk-section uk-flex uk-flex-center"> 
+    <div class="uk-width-1-1 uk-width-3-4@m uk-text-center">
+
+    <h6 class="page-title uk-text-bold uk-text-center">  
+      Explore the States of Micronesia 
+    </h6>
+
+       <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-height-small chuuk-card">
+                    <h3 class="uk-card-title uk-text-small uk-text-bold uk-margin-large-top"><a href="/Chuuk">Chuuk</a></h3>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-height-small kosrae-card">
+                    <h3 class="uk-card-title uk-text-small uk-text-bold uk-margin-large-top"><a href="/Kosrae">Kosrae</a></h3>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-height-small pohnpei-card">
+                    <h3 class="uk-card-title uk-text-small uk-text-bold uk-margin-large-top"><a href="/Pohnpei">Pohnpei</a></h3> 
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-height-small yap-card">
+                    <h3 class="uk-card-title uk-text-small uk-text-bold uk-margin-large-top"><a href="/Yap">Yap</a></h3>
+                </div>
+            </div>
+        </div>
+
+        <p class="explore-caption">
+        Discover many different island traditions across the Four States of Micronesia.
+        </p>
+
+    </div>
+</div>

@@ -1,0 +1,124 @@
+@model myapp.Pages.VoicesModel
+
+<style> 
+#voices { 
+    font-family: "EB Garamond", serif;
+    position: relative;
+} 
+.page-subtitle-wrapper {
+    width: 100%;
+    left: 0;
+    margin-top: 10px; 
+    pointer-events: none;
+} 
+.page-subtitle {
+    font-family: "Courgette", cursive;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.85;
+    margin: 0;  
+}
+.pushed-grid {
+    transform: translateY(50px);
+}
+.voices-heading {
+    font-weight: 500;
+    font-family: "Courgette", cursive;
+    margin-bottom: 8px;
+} 
+#voices .uk-divider-icon {
+    background-image: 
+        linear-gradient(to right, transparent, #ffd6e5, transparent),
+        linear-gradient(to right, transparent, #ffd6e5, transparent);
+}
+#voices .uk-grid-divider > :not(.uk-first-column)::before {
+    border-left: 1px solid #ff8fb1;
+}
+.culture-image-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    pointer-events: none;
+    width: clamp(50px, 6vw, 90px);
+}
+.culture-image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@@media (min-width: 768px) and (max-width: 912px) {
+    .uk-divider-icon {
+        margin-top: 60px;
+    }
+    .uk-grid-divider p {
+        margin-top: 10px;
+        width: 70%; 
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }  
+    .culture-image-wrapper {
+        bottom: -80px;
+    }
+}
+
+@@media screen and (max-width: 912px) { 
+    #voices .uk-grid-divider { 
+        display: flex;
+        flex-direction: column;
+    }
+    #voices .uk-grid-divider > div {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    #voices .uk-grid-divider > :not(.uk-first-column)::before {
+        border-left: none;
+    }
+    #voices .uk-width-large {
+        margin-top: 20px;
+    }
+    .page-subtitle {
+        padding: 0 15px;
+        line-height: 1.5;
+    }
+}
+</style>
+
+<div id="voices" class="page-main uk-section uk-flex uk-flex-center">
+  <div class="uk-width-1-1 uk-width-3-4@m uk-text-center">
+
+    <h6 class="page-title uk-text-bold uk-text-center">
+      Where the Islands Speak Through the Sea
+    </h6> 
+
+    <div class="page-subtitle-wrapper">
+        <h6 class="page-subtitle uk-text-center">
+          Whispers of ocean currents, woven through islands where stories travel by tide, wind, and memory.
+        </h6>
+    </div>
+
+    <hr class="uk-divider-icon">
+
+    <div class="uk-grid-divider uk-child-width-expand@s uk-margin-medium-top uk-flex-center" uk-grid>
+    <div class="uk-width-large">
+      <p>
+        Across Micronesia, island voices emerge through tides, winds, and quiet shorelines where everyday life is shaped by the sea. Villages rest along coral coasts and forested hills, holding stories that move through generations like drifting currents. Morning light brings fishermen to calm lagoons, while evenings gather families in shared spaces filled with memory and song. From atoll to atoll, each place carries its own rhythm, yet all are bound by the vast Pacific that surrounds them. The journey through these waters reveals a living connection between land, people, and ocean traversing thru its own time and history.
+      </p>
+    </div>
+
+    <div class="uk-width-large">
+      <p>
+       Between the islands, voices travel in navigation, language, and tradition, guided by knowledge of stars, currents, and changing skies. Communities remain closely tied to the sea, where canoe paths and modern routes alike follow ancient patterns of movement and exchange. Cultural practices endure in storytelling, dance, and craft, blending resilience with adaptation in a changing world. Even as the islands evolve, their identity remains anchored in ocean relationships that continue to shape daily life. Together, they form a shared narrative carried gently across the Pacific.
+      </p>
+    </div>  
+</div>
+
+    <div class="culture-image-wrapper">
+        <img src="~/images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png" 
+            alt="Island Life">
+    </div>
+
+  </div>
+</div>  

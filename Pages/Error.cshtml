@@ -1,0 +1,41 @@
+@page
+@model ErrorModel
+@{
+    Layout = null;
+    var code = Model.StatusCode ?? 500;
+}
+
+<!DOCTYPE html>
+<html>
+<head>  
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="~/images/flag-button-round-250.png">
+    <title>Error @code</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.25.14/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="/css/app.css" />  
+</head>
+<body>
+
+<div id="error" class="wrapper">
+
+    <div class="top uk-text-center">
+        <h1 class="uk-heading-xsmall uk-text-bold uk-text-medium uk-margin-large-top">@code</h1>
+    </div>
+
+    <div class="center">
+         <div id="loader" class="loader">
+           <img src="~/images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png" alt="Loading">
+        </div> 
+    </div>
+
+    <div class="uk-text-center uk-margin-xlarge-bottom">
+        <a href="/" data-force class="uk-text-bold" style="text-decoration: none;">Go back to Micronesia</a>  
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.25.14/dist/js/uikit.min.js"></script>
+<script src="/js/app.js"></script>
+</body>
+</html>

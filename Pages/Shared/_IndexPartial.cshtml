@@ -1,0 +1,97 @@
+@model myapp.Pages.IndexModel
+
+<style> 
+body { 
+    background:
+        radial-gradient(circle at 20% 25%,
+            rgba(255, 239, 204, 0.38) 0%,
+            transparent 35%),
+        radial-gradient(circle at 75% 70%,
+            rgba(255, 232, 190, 0.28) 0%,
+            transparent 40%),
+        radial-gradient(circle at 50% 50%,
+            rgba(170, 240, 255, 0.22) 0%,
+            transparent 60%),
+        linear-gradient(
+            180deg,
+            #e8fbff 0%,
+            #d7f7ff 25%,
+            #c8f1ff 50%,
+            #dffbff 100%
+        );
+    background-attachment: fixed;
+    background-size: 140% 140%;
+    overflow-x: hidden;
+    animation: waterFlow 18s ease-in-out infinite;
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background:
+        repeating-radial-gradient(
+            circle at 0 0,
+            rgba(255,255,255,0.06) 0px,
+            rgba(255,255,255,0.06) 3px,
+            transparent 4px,
+            transparent 14px
+        );
+    opacity: 0.3;
+    mix-blend-mode: soft-light;
+}
+@@keyframes waterFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+} 
+
+footer {
+    margin-top: 0px !important;
+}
+#app {
+    overflow-x: hidden;
+} 
+</style>
+
+<div class="uk-width-1-1"> 
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: false; autoplay: true">
+
+        <div class="uk-slideshow-items" uk-height-viewport="offset-top: true;">
+            <div>
+                <img src="~/images/slides/photo-1553602932-f93f674a9aaa.jpg" alt="" uk-cover>
+            </div>
+            <div>
+                <img src="~/images/slides/photo-1553602889-f85ab725f992.jpg" alt="" uk-cover>
+            </div>
+            <div>
+                <img src="~/images/slides/wp2218416.jpg" alt="" uk-cover>
+            </div> 
+            <div>
+                <img src="~/images/slides/_DSC5244.jpg" alt="" uk-cover>
+            </div>
+            <div>
+                <img src="~/images/slides/lrm_export_20180529_125706.jpg" alt="" uk-cover>
+            </div>
+            <div>
+                <img src="~/images/slides/YAP_Cover-Shot-Option-1.jpg" alt="" uk-cover>
+            </div>
+            <div>
+                <img src="~/images/slides/do_yap_communityhouse.jpg" alt="" uk-cover>
+            </div>
+            <div>
+                <img src="~/images/slides/micronesia-man-at-sea-23bga5envi661uy5.jpg" alt="" uk-cover>
+            </div>
+            <div>
+                <img src="~/images/slides/Header-Micronesia-Fefan-Aerial.jpg" alt="" uk-cover>
+            </div>
+
+        </div>
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
+
+    </div>
+    
+</div> 

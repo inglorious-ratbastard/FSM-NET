@@ -1,0 +1,124 @@
+@model myapp.Pages.AroundModel
+
+<style> 
+#around { 
+    font-family: "EB Garamond", serif;
+    position: relative;
+} 
+.page-subtitle-wrapper {
+    width: 100%;
+    left: 0;
+    margin-top: 10px; 
+    pointer-events: none;
+} 
+.page-subtitle {
+    font-family: "Courgette", cursive;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.85;
+    margin: 0;  
+}
+.pushed-grid {
+    transform: translateY(50px);
+}
+.around-heading {
+    font-weight: 500;
+    font-family: "Courgette", cursive;
+    margin-bottom: 8px;
+} 
+#around .uk-divider-icon {
+    background-image: 
+        linear-gradient(to right, transparent, #ffd6e5, transparent),
+        linear-gradient(to right, transparent, #ffd6e5, transparent);
+}
+#around .uk-grid-divider > :not(.uk-first-column)::before {
+    border-left: 1px solid #ff8fb1;
+}
+.culture-image-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    pointer-events: none;
+    width: clamp(50px, 6vw, 90px);
+}
+.culture-image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@@media (min-width: 768px) and (max-width: 912px) {
+    .uk-divider-icon {
+        margin-top: 60px;
+    }
+    .uk-grid-divider p {
+        margin-top: 10px;
+        width: 70%; 
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }  
+    .culture-image-wrapper {
+        bottom: -80px;
+    }
+}
+
+@@media screen and (max-width: 912px) { 
+    #around .uk-grid-divider { 
+        display: flex;
+        flex-direction: column;
+    }
+    #around .uk-grid-divider > div {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    #around .uk-grid-divider > :not(.uk-first-column)::before {
+        border-left: none;
+    }
+    #around .uk-width-large {
+        margin-top: 20px;
+    }
+    .page-subtitle {
+        padding: 0 15px;
+        line-height: 1.5;
+    }
+}
+</style>
+
+<div id="around" class="page-main uk-section uk-flex uk-flex-center">
+  <div class="uk-width-1-1 uk-width-3-4@m uk-text-center">
+
+    <h6 class="page-title uk-text-bold uk-text-center">
+      Exploring the Islands of Micronesia
+    </h6> 
+
+    <div class="page-subtitle-wrapper">
+        <h6 class="page-subtitle uk-text-center">
+           Journey through beautiful open waters linking vast island cultures.
+        </h6>
+    </div>
+
+    <hr class="uk-divider-icon">
+
+    <div class="uk-grid-divider uk-child-width-expand@s uk-margin-medium-top uk-flex-center" uk-grid>
+    <div class="uk-width-large">
+      <p>
+       Traveling through the islands reveals a calm rhythm shaped by turquoise lagoons, swaying palms, and steady ocean breezes that define daily life across the Pacific. Each island offers quiet coastal villages and lush tropical scenery, creating a sense of ease, connection, and closeness to nature. Days unfold with gentle waves, glowing sunsets, and traditions passed down through generations that continue to shape local culture. From peaceful shorelines to welcoming gatherings, each stop reflects the simple warmth and timeless beauty of island life. The journey between islands adds a deeper appreciation for the vast ocean that connects them all.
+      </p>
+    </div>
+
+    <div class="uk-width-large">
+      <p>
+       Moving between the island chains brings a steady sense of flow guided by the sea, warm climate, and close-knit communities that value harmony and connection. Clear waters, coral reefs, and vibrant landscapes surround villages where music, storytelling, and shared moments remain central to daily life. Travelers are drawn to the relaxed pace shaped by friendly locals, open-air spaces, and traditions that blend naturally with the ocean environment. Even with modern change reaching the islands, the journey between them still carries a peaceful spirit and lasting sense of tropical authenticity.
+      </p>
+    </div>  
+</div>
+
+    <div class="culture-image-wrapper">
+        <img src="~/images/pngtree-plumeria-logo-template-vector-symbol-design-plumeria-flower-vector-png-image_38430338.png" 
+            alt="Island Life">
+    </div>
+
+  </div>
+</div>  

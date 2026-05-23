@@ -1,0 +1,79 @@
+@model myapp.Pages.AboutModel
+
+<style>
+.uk-lightbox {
+    z-index: 9999 !important;
+    padding-top: 80px;
+} 
+.page-subtitle-wrapper {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: 1px; 
+    pointer-events: none;
+} 
+.page-subtitle {
+    font-family: "Courgette", cursive;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.85;
+    margin: 0;  
+}
+.pushed-grid {
+    transform: translateY(40px);
+}
+
+@@media (min-width: 960px) and (max-width: 1100px) {
+    .about-stack {
+        flex-direction: column !important;
+        text-align: center !important; 
+    }
+
+    .about-stack > div {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .about-stack img {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-stack p {
+        text-align: center;
+    }
+}
+</style>
+
+<div class="page-main uk-section uk-flex uk-flex-center">
+  <div class="uk-width-1-1 uk-width-3-4@m uk-text-center">
+
+    <h6 class="page-title uk-text-bold uk-text-center">
+      Welcome to The Federated States of Micronesia
+    </h6>
+
+    <div class="page-subtitle-wrapper">
+        <h6 class="page-subtitle uk-text-center">
+          Experience untouched islands, vibrant traditions, and the heart of the Pacific Ocean. 
+        </h6>
+    </div>
+
+    <div class="about-stack uk-grid-medium uk-flex-middle uk-margin-medium-top uk-text-left@m uk-text-center pushed-grid" uk-grid>
+
+      <div class="uk-width-1-1 uk-width-1-3@m uk-flex-first@m uk-text-center" uk-lightbox>
+        <a href="https://cdn.britannica.com/96/126096-050-7C282661/map-Federated-States-of-Micronesia.jpg">
+          <img src="~/images/pages/map-Federated-States-of-Micronesia.jpg"
+              alt="Image" class="uk-height-auto uk-max-width-100"> 
+        </a>
+      </div>
+
+      <div class="uk-width-1-1 uk-width-1-2@m">
+        <p>The Federated States of Micronesia is a Pacific island nation made up of over 600 islands spread across the western Pacific Ocean. Historically, the islands were settled by Austronesian navigators thousands of years ago and later came under Spanish, German, Japanese, and U.S. administration before gaining independence in 1986. Today, Micronesia is known for its rich cultural traditions, strong community ties, and deep connection to the ocean, with each state—Chuuk, Kosrae, Pohnpei, and Yap—offering its own unique languages, customs, and way of life.</p>
+        <p>For travelers, Micronesia offers an unspoiled escape with crystal-clear lagoons, lush rainforests, and vibrant marine life. Visitors can explore famous dive sites like Chuuk Lagoon, discover ancient ruins such as Nan Madol in Pohnpei, or experience traditional island life in Yap. With its warm hospitality and relaxed pace, Micronesia invites travelers to connect with nature, history, and culture away from crowded destinations.</p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
